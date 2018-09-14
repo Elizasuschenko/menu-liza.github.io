@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="js/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Меню</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="search">
+                <form action="">
+                    <input type="submit" value="">
+                    <input type="search" placeholder="Поиск">
+                </form>
+            </div>
+            <div class="time">
+                <img src="img/clock.png" alt="">
+                <div class="time-content">
+                    <span>вс - ср: 22:00 - 3:00</span>
+                    <span>чт - сб: 22:00 - 5:00</span>
+                    <span>Минское шосе 187 км, д.1</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="menu">
+        <h2>MENU</h2>
+        <div class="container">
+            <div class="block">
+                <div class="menu-block-content">
+            <div class="menu-block">
+                <img src="img/meat.png" alt="">
+                <h3>Блюда из мяса</h3>
+            </div></div></div>
+            <div class="block">
+                <div class="menu-block-content">
+            <div class="menu-block">
+                <img src="img/fish.png" alt="">
+                <h3>Блюда из рыбы</h3>
+            </div></div></div>
+            <div class="block">
+                <div class="menu-block-content">
+            <div class="menu-block">
+                <img src="img/salt.png" alt="">
+                <h3>Салаты</h3>
+            </div></div></div>
+            <div class="block">
+                <div class="menu-block-content">
+            <div class="menu-block">
+                <img src="img/zakus.png" alt="">
+                <h3>Закуски</h3>
+            </div></div></div>
+            <div class="block">
+                <div class="menu-block-content">
+            <div class="menu-block">
+                <img src="img/sweet.png" alt="">
+                <h3>Десерты</h3>
+            </div></div></div>
+            <div class="block">
+                <div class="menu-block-content">
+            <div class="menu-block">
+                <img src="img/drink.png" alt="">
+                <h3>Напитки</h3>
+            </div></div></div>
+        </div>
+    </section>
+    <footer>
+        <div class="bag">
+            <img src="img/bag.png" alt="">
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script>
+                $("#menu .container").mCustomScrollbar({
+                    theme:"dark-thin"
+                });
+    </script>
+</body>
+</html>
